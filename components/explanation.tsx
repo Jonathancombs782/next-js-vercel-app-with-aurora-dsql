@@ -17,7 +17,7 @@ export default function Explanation() {
         This app uses <b className="font-bold">AWS DSQL Postgres</b> with
         Next.js and Vercel (
         <Link
-          href="https://github.com/vercel/aws-dsql-movies-demo"
+          href="https://github.com/Jonathancombs782/next-js-vercel-app-with-aurora-dsql"
           target="_blank"
           rel="noreferrer"
           className="text-gray-900 dark:text-white border-b border-gray-900 dark:border-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -33,7 +33,7 @@ export default function Explanation() {
         </summary>
         <p className="p-5 mt-2 bg-gray-100 dark:bg-gray-800">
           Movies are fetched from the Postgres database when the page loads. It
-          has been seeded with the top 5000 movies from{" "}
+          has been seeded with movies from{" "}
           <Link
             href="https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata"
             target="_blank"
@@ -61,7 +61,7 @@ export default function Explanation() {
           <em className="text-gray-900 dark:text-gray-100 not-italic">
             strong consistency
           </em>
-          . DSQL is ACID, severless and scales to zero, and separates storage
+          . DSQL is ACID, serverless and scales to zero, and separates storage
           from compute. It also has 99.99% availability in single-region
           configuration and 99.999% in multi-region.{" "}
           <Link

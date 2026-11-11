@@ -12,7 +12,9 @@ export function highlightMatch(text: string, highlight: string) {
   if (!highlight.trim()) {
     return text;
   }
-  const regex = new RegExp(`(${highlight})`, "gi");
+  // Escape regex metacharacters so raw user input (e.g. "(") cannot throw.
+  const escaped = highlight.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const regex = new RegExp(`(${escaped})`, "gi");
   return text.replace(
     regex,
     '<span class="bg-yellow-300 dark:bg-yellow-700">$1</span>',
@@ -100,7 +102,7 @@ export function MovieVoting({
         filter: state.filter,
       });
 
-      await voteAction(movie, updatedMovie.score, updatedMovie.lastVoteTime);
+      await voteAction(movie, voteType);
     });
   };
 
