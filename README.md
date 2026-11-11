@@ -1,16 +1,18 @@
-# AWS Aurora DQSL Movies Demo
+# AWS Aurora DSQL Movies Demo
 
 This demo uses AWS DSQL Postgres with Next.js to fetch movies from the database. It is able to securely connect to DSQL without using hardcoded access tokens through Vercel's [OIDC Federation](https://vercel.com/docs/security/secure-backend-access/oidc).
 
-[![This is an alt text.](/public/Vercel-AWS-GitHub-DSQL.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dsql-movies-demo&project-name=aws-dsql-movies-demo&repository-name=aws-dsql-movies-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-dsql%22%2C%22protocol%22%3A%22storage%22%7D%5D)
+Imported from Vercel's [aws-dsql-movies-demo](https://github.com/vercel/aws-dsql-movies-demo) (MIT, Copyright 2024 Vercel, Inc.).
+
+[![This is an alt text.](/public/Vercel-AWS-GitHub-DSQL.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJonathancombs782%2Fnext-js-vercel-app-with-aurora-dsql&project-name=next-js-vercel-app-with-aurora-dsql&repository-name=next-js-vercel-app-with-aurora-dsql&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-dsql%22%2C%22protocol%22%3A%22storage%22%7D%5D)
 
 **Demo:**
-[View Demo](https://aws-dsql-movies-demo.labs.vercel.dev)
+[View Demo](https://next-js-vercel-app-with-aurora-dsql-chi.vercel.app)
 
 **Getting Started:**
 Click the "Deploy" button to clone this repo, create a new Vercel project, setup the AWS integration, and provision a new DSQL database:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dsql-movies-demo&project-name=aws-dsql-movies-demo&repository-name=aws-dsql-movies-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-dsql%22%2C%22protocol%22%3A%22storage%22%7D%5D)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJonathancombs782%2Fnext-js-vercel-app-with-aurora-dsql&project-name=next-js-vercel-app-with-aurora-dsql&repository-name=next-js-vercel-app-with-aurora-dsql&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-dsql%22%2C%22protocol%22%3A%22storage%22%7D%5D)
 
 Once the process is complete, you can clone the newly created GitHub repository and start making changes locally.
 

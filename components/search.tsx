@@ -6,7 +6,7 @@ import { useRef, useEffect, useState } from "react";
 
 interface SearchInputProps {
   inputValue?: string;
-  onChange: any;
+  onChange: (value: string) => void;
 }
 
 export function Search({ inputValue = "", onChange }: SearchInputProps) {

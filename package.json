@@ -1,5 +1,5 @@
 {
-  "name": "aws-dsql-movies-demo",
+  "name": "next-js-vercel-app-with-aurora-dsql",
   "private": true,
   "engine": {
     "pnpm": ">9"
